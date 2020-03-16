@@ -10,6 +10,8 @@ function addCorona() {
       table.text('description');
       table.text('state');
       table.text('city');
+      table.text('fullName');
+      table.text('madeBy');
       table.text('locationDescription');
       table.float('locationLatitude');
       table.float('locationLantitude');

@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const queries = require('../db/queryAgent');
+const queries = require('../db/queyAgent');
 
 router.post('/', (req, res) => {
   queries.addComment(req.body).then(() => {
